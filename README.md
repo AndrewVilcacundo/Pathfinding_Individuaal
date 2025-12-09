@@ -1,7 +1,3 @@
-Aquí lo tienes en **formato README listo para copiar y pegar**, con todo bien explicado y con los links incluidos:
-
----
-
 # Pathfinding_Individuaal
 
 Proyecto desarrollado en **Unity** que implementa un sistema de **pathfinding** para que un agente pueda desplazarse por un entorno evitando obstáculos mediante una búsqueda de rutas óptimas.
@@ -92,7 +88,3 @@ Puedes ver el funcionamiento del proyecto en este video:
 
 * Este proyecto ofrece una estructura simple y clara para entender cómo funciona el pathfinding en Unity.
 * Es un buen punto de partida para expandir el sistema, agregar múltiples agentes, mejorar la heurística o implementar navegación 3D.
-
----
-
-Si quieres que escriba un README *más técnico*, con explicación del algoritmo A*, ejemplo de código o diagramas, ¡solo pídelo!
