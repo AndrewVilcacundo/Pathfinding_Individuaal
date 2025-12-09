@@ -1,46 +1,98 @@
-Pathfinding_Individuaal
-Descripción
-Este repositorio contiene un proyecto realizado en Unity que implementa un sistema de pathfinding (búsqueda de caminos) para agentes, permitiendo calcular rutas desde un punto A a un punto B evitando obstáculos. El objetivo es ofrecer una base simple — pero funcional — de navegación basada en grillas (grid) / estructura de proyecto Unity, ideal como punto de partida para juegos o pruebas con IA.
-Este proyecto está asociado a una versión jugable disponible en itch.io, así como una demostración en vídeo en YouTube.
+Aquí lo tienes en **formato README listo para copiar y pegar**, con todo bien explicado y con los links incluidos:
 
- Estructura del repositorio
- / (.-raíz del repositorio)
-│  
-├─ Assets/  
-├─ Build/  
-├─ Library/  
-├─ Logs/  
-├─ Packages/  
-├─ ProjectSettings/  
-├─ UserSettings/  
-├─ .gitignore  
-├─ .vsconfig  
-├─ Assembly-CSharp.csproj  
-├─ Pathfinding-main.sln  
-├─ Pathfinding.sln  
+---
+
+# Pathfinding_Individuaal
+
+Proyecto desarrollado en **Unity** que implementa un sistema de **pathfinding** para que un agente pueda desplazarse por un entorno evitando obstáculos mediante una búsqueda de rutas óptimas.
+El repositorio contiene todos los archivos necesarios para abrir el proyecto directamente en Unity.
+
+---
+
+## 🧭 ¿Qué es este proyecto?
+
+Este proyecto muestra una implementación funcional de **pathfinding basado en Grid** dentro de Unity.
+La escena permite que un agente:
+
+* Calcule un camino desde un punto inicial hacia un destino.
+* Evite obstáculos dentro del entorno.
+* Utilice algoritmos clásicos de búsqueda de ruta (como A*).
+* Visualice el Grid, nodos, y camino encontrado (dependiendo de las configuraciones incluidas).
+
+Es ideal como ejemplo educativo o como base para más sistemas de IA en videojuegos.
+
+---
+
+## 📁 Estructura del repositorio
+
+El repositorio contiene un proyecto estándar de Unity con los siguientes directorios y archivos principales:
+
+```
+/ (raíz del repositorio)
+│
+├─ Assets/
+├─ Build/
+├─ Library/
+├─ Logs/
+├─ Packages/
+├─ ProjectSettings/
+├─ UserSettings/
+│
+├─ .gitignore
+├─ .vsconfig
+├─ Assembly-CSharp.csproj
+├─ Pathfinding-main.sln
+├─ Pathfinding.sln
 └─ UpgradeLog.htm
+```
 
-	•	Assets/, Packages/, ProjectSettings/, etc: carpetas estándar de un proyecto Unity.
-	•	Build/: contiene versiones compiladas / build del proyecto (si las has generado).
-	•	Archivos .sln y .csproj: archivos de solución/proyecto generados por Unity/Visual Studio.
-	•	.gitignore, .vsconfig: configuración de control de versiones / entorno de desarrollo.
+### Descripción rápida:
 
-​
+* **Assets/**
+  Contiene los scripts, escenas, recursos y lógica del pathfinding.
 
-🚀 Cómo usar este proyecto
-	1.	Abre el proyecto en Unity usando alguno de los archivos .sln o simplemente importando la carpeta en Unity.
-	2.	Asegúrate de que las carpetas estándar de Unity estén preservadas (Assets, ProjectSettings, etc.).
-	3.	Ejecuta la escena principal (o crea una nueva) para probar el sistema de pathfinding.
-	4.	Puedes construir (“Build”) el juego a un ejecutable o WebGL, si lo deseas, usando la carpeta Build/.
-Este setup sigue la lógica común a implementaciones de pathfinding en Unity basadas en grillas (grid), similares a ejemplos públicos de algoritmos A* en Unity. (GitHub)
+* **Packages/**, **ProjectSettings/**
+  Configuración típica de Unity necesaria para abrir y ejecutar el proyecto.
 
-🎮 Demo / Build público
-Puedes probar una versión compilada del proyecto visitando su página en itch.io:
-▶️ Ver/Descargar la demo en itch.io
+* **Build/**
+  Carpeta donde pueden almacenarse compilaciones del proyecto (por ejemplo versiones ejecutables).
 
-📺 Demo en vídeo
-También hay un vídeo de demostración donde se muestra el sistema de pathfinding en acción:
-▶️ Ver vídeo en YouTube
+* **.sln y .csproj**
+  Archivos de solución abiertos por Visual Studio para editar los scripts del proyecto.
 
-ℹ️ Notas / Mejoras posibles
-	•	Este proyecto es una base simple — no incluye en sí una documentación extensa sobre nodos, heurísticas, costos, etc. Si deseas usarlo como base para un juego más complejo, puede que necesites adaptar o extender la lógica de pathfinding.
+---
+
+## 🚀 Cómo abrir y ejecutar el proyecto
+
+1. Abre Unity Hub.
+2. Selecciona **Open Project** y elige la carpeta del repositorio.
+3. Unity detectará automáticamente las carpetas estándar (Assets, ProjectSettings…).
+4. Abre la escena principal relacionada con el sistema de pathfinding.
+5. Ejecuta el proyecto con **Play** para ver el funcionamiento del agente.
+
+---
+
+## 🎮 Demo jugable en itch.io
+
+Puedes probar una versión del proyecto directamente aquí:
+
+🔗 **[https://andrewvilcacundo.itch.io/animacin-3d-unity](https://andrewvilcacundo.itch.io/animacin-3d-unity)**
+
+---
+
+## 📺 Video demostrativo en YouTube
+
+Puedes ver el funcionamiento del proyecto en este video:
+
+🔗 **[https://youtu.be/ER5MDNgxGj4?feature=shared](https://youtu.be/ER5MDNgxGj4?feature=shared)**
+
+---
+
+## 📌 Notas finales
+
+* Este proyecto ofrece una estructura simple y clara para entender cómo funciona el pathfinding en Unity.
+* Es un buen punto de partida para expandir el sistema, agregar múltiples agentes, mejorar la heurística o implementar navegación 3D.
+
+---
+
+Si quieres que escriba un README *más técnico*, con explicación del algoritmo A*, ejemplo de código o diagramas, ¡solo pídelo!
