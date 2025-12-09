@@ -1,11 +1,9 @@
-Claro — aquí tienes un ejemplo de README que puedes copiar-pegar para tu repositorio. Si quieres, puedo adaptarlo al español o inglés según prefieras.
-
 Pathfinding_Individuaal
-🔹 Descripción
+Descripción
 Este repositorio contiene un proyecto realizado en Unity que implementa un sistema de pathfinding (búsqueda de caminos) para agentes, permitiendo calcular rutas desde un punto A a un punto B evitando obstáculos. El objetivo es ofrecer una base simple — pero funcional — de navegación basada en grillas (grid) / estructura de proyecto Unity, ideal como punto de partida para juegos o pruebas con IA.
 Este proyecto está asociado a una versión jugable disponible en itch.io, así como una demostración en vídeo en YouTube.
 
-📦 Estructura del repositorio
+ Estructura del repositorio
  / (.-raíz del repositorio)
 │  
 ├─ Assets/  
@@ -26,7 +24,7 @@ Este proyecto está asociado a una versión jugable disponible en itch.io, así 
 	•	Build/: contiene versiones compiladas / build del proyecto (si las has generado).
 	•	Archivos .sln y .csproj: archivos de solución/proyecto generados por Unity/Visual Studio.
 	•	.gitignore, .vsconfig: configuración de control de versiones / entorno de desarrollo.
-  Imagen ⚠️ El repositorio NO parece contener una documentación detallada o “Readme” propia — así que este README servirá para describir su propósito y funcionamiento.
+
 ​
 
 🚀 Cómo usar este proyecto
